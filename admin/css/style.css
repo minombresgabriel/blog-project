@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea, button {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+
+}
+
+button {
+
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background: #f4f4f4;
+}
+
+.main-header {
+    background-color: #f4f4f4; 
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+.btn {
+
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    text-decoration: none; 
+    border-radius: 5px; 
+    text-align: center;
+    transition: all 0.3s ease; 
+    color: red;
+}
+
+.btn-create {
+    background-color: #28a745; 
+    color: white; 
+    border: 2px solid #28a745; 
+}
+
+.btn-create:hover {
+    background-color: #218838; 
+    border-color: #1e7e34; 
+}
+
+.btn-logout {
+    background-color: #dc3545; 
+    color: white; 
+    border: 2px solid #dc3545; 
+}
+
+.btn-logout:hover {
+    background-color: #c82333; 
+    border-color: #bd2130; 
+}
+
+.button-container {
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 20px; 
+
+}
+
+
+.back-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
